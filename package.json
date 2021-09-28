@@ -1,0 +1,23 @@
+{
+  "name": "nodemail",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://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@github.com/CELS0/nodemail.git",
+  "author": "CELS0 <celsojr.300@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev src/server.ts"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.8",
+    "notenv": "^2.0.3",
+    "tsc": "^2.0.3",
+    "typescript": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/mongoose": "^5.11.97",
+    "ts-node-dev": "^1.1.8"
+  }
+}
